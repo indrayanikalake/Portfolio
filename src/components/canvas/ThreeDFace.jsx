@@ -28,7 +28,7 @@ renderer.setPixelRatio(window.devicePixelRatio);
 
 const maxSize = Math.min(window.innerWidth, window.innerHeight);
 const aspectRatio = canvas.width / canvas.height;
-const circularSize = maxSize * 0.8; // Adjust the scale as needed
+const circularSize = maxSize * 1.02; // Adjust the scale as needed
 renderer.setSize(circularSize * aspectRatio, circularSize);
 
 var scene = new THREE.Scene();

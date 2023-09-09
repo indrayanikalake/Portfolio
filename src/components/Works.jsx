@@ -17,7 +17,7 @@ return(
       scale:1,
       speed:450
     }}
-    className='bg-tertiery  p-5 rounded-2xl sm:w-[360px] w-full'
+    className='bg-tertiery  p-5 rounded-2xl sm:w-[360px] w-full h-full'
     style={{
       background: 'linear-gradient(to bottom, gray, black)'
     }}
@@ -40,7 +40,7 @@ return(
      <h3 className='text-white font-bold text-[24px]'>{name}</h3>
      <p className='mt-2 text-secondary text-[14px]'>{description}</p>
     </div>
-    <div className='mt-4 flex flex-wrap gap-2'>
+    <div className='mb-1 flex flex-wrap gap-2'>
       {tags.map((tag, index) =>(
         <p key={tag.name}
         className={`text-[14px] font-bold ${tag.color}`}>
@@ -72,9 +72,9 @@ const Works = () => {
      </motion.p>
 
     </div>
-    <div className='mt-20 flex flex-wrap gap-7'>
+    <div className='mt-20 flex flex-wrap gap-7 '>
     {projects.map((project, index) =>(
-      <ProjectCard 
+      <ProjectCard className='h-24'
       key={`project-${index}`}
       index={index}
       {...project}

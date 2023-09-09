@@ -28,13 +28,20 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import ai from './AIBkurr.jpg'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import expenseTracker from './expenseGolden.png';
+import mail from './mailBox.png';
+import e from './e.png';
+import chat from './chat.png';
 
 export {
+  chat,
+  e,
+  mail,
+  ai,
   logo,
   indrayani,
   backend,

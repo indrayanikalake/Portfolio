@@ -27,6 +27,12 @@
   letter-spacing: 0.04em;
   text-transform: capitalize;
 }
+.profile{
+  margin:0 0.3rem;
+  width:10%;
+  height:68vh;
+  box-shadow: 10px 15px 25px white;
+}
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
