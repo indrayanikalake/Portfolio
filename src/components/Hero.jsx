@@ -18,7 +18,7 @@ const Hero = () => {
      <div className='absolute z-10 ml-10'>
       <h1 className={`${styles.heroHeadText} `}>Hi, I'm <span className='text-gold'>Indrayani</span></h1>
      <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-      I develop 3d visuals, user <br className='sm:block hidden'/> interfaces and web applications
+      I develop visuals, user <br className='sm:block hidden'/> interfaces and web applications
      </p>
     
      
@@ -26,7 +26,7 @@ const Hero = () => {
      
     </div>
     <div
-    className='profile md:block rounded-full overflow-hidden'
+    className='hidden md:block rounded-full overflow-hidden'
      style={{ margin:'4rem 20rem',width:'50%', height:'68vh', boxShadow:' 10px 15px 25px white'}}>
     
     <img className='rounded-full w-18 h-full transform scale-125 hover:scale-150 cursor-pointer transition-transform duration-300' 
