@@ -27,10 +27,10 @@ const Hero = () => {
     </div>
     
     <div
-    className='hidden md:block rounded-full overflow-hidden'
+    className='hidden lg:block rounded-full overflow-hidden'
      style={{ margin:'4rem 42rem',width:'50%', height:'68vh'}}>
     
-    <img className='p-12 opacity-75 rounded-full w-18 h-full transform scale-150 hover:scale-150 cursor-pointer transition-transform duration-300' 
+    <img className=' opacity-40 rounded-full w-18 h-full transform scale-150 hover:scale-150 cursor-pointer transition-transform duration-300' 
      src={ai}/>
     </div>
     </section>
