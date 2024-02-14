@@ -63,6 +63,23 @@ import {
       title: "Redux",
       icon: creator,
     },
+    {
+      title:"node.js",
+      icon: backend,
+    },
+    {
+      title:"Express",
+      icon: mobile,
+    },
+    {
+      title:"Mysql",
+      icon: web,
+    },
+    {
+      title:"Mongodb",
+      icon: creator,
+    },
+    
   ];
   
   const technologies = [
