@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section
    
-    className='relative w-full h-screen mx-auto'>
+    className='relative w-full h-screen mx-auto opacity-70'>
     <div className={`${styles.paddingX} absolute inset-0 top-[150px] max-w-7xl mx-auto flex flex-row
     items-start gap-5`}>
      <div className='flex flex-col justify-center items-center '>
@@ -28,9 +28,9 @@ const Hero = () => {
     
     <div
     className='hidden lg:block rounded-full overflow-hidden'
-     style={{ margin:'4rem 42rem',width:'50%', height:'68vh'}}>
+     style={{ margin:'4rem 42rem',width:'50%', height:'89vh'}}>
     
-    <img className=' opacity-40 rounded-full w-18 h-full transform scale-150 hover:scale-150 cursor-pointer transition-transform duration-300' 
+    <img className=' opacity-60 rounded-full w-18 h-full transform scale-125 hover:scale-150 cursor-pointer transition-transform duration-300' 
      src={ai}/>
     </div>
     </section>
